@@ -42,11 +42,13 @@ theme: # Тема сайта, информация о ее параметрах
     - content.code.copy # Кнопка копирования в блоке кода
 nav: # Структура сайта
 - Главная страница: index.md
-- Инструкции:
+- Telegram:
   - instructions/index.md 
   - Отправка отложенного сообщения в Telegram: instructions/scheduled_message.md
   - Создание бота в Telegram: instructions/create_bot.md
   - Секретные чаты в Telegram: instructions/secret_chat.md
+- NotesApp:
+  - Сценарий «Удаление заметки»: notesapp/delete_note.md  
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
