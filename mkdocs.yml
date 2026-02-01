@@ -43,7 +43,10 @@ theme: # Тема сайта, информация о ее параметрах
 nav: # Структура сайта
 - Главная страница: index.md
 - Инструкции:
-  - Отправка отложенного сообщения в Telegram: instructions/instruction01.md
+  - instructions/index.md 
+  - Отправка отложенного сообщения в Telegram: instructions/scheduled_message.md
+  - Создание бота в Telegram: instructions/create_bot.md
+  - Секретные чаты в Telegram: instructions/secret_chat.md
 markdown_extensions: # Расширения markdown
   - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
   - footnotes # Поддержка встроенных сносок на страницах
@@ -59,4 +62,7 @@ markdown_extensions: # Расширения markdown
   - pymdownx.emoji: # Иконки и эмодзи
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - search
+  - glightbox
     
